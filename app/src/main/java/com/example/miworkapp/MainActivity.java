@@ -7,6 +7,15 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+/**
+ * To play correct audio file per word
+ * 1. update word class to store audio information for each word
+ * 2. update the creation of our list of words using an updated word constructor
+ * update the onItemClickListener to play the correct sound per word.
+ * Repeat this for process for all remaining activities
+ */
+
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
