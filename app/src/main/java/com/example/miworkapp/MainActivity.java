@@ -15,6 +15,12 @@ import android.widget.TextView;
  * Repeat this for process for all remaining activities
  */
 
+/**
+ *  Clean up MediaPlayer resources according to activity lifecycle
+ * We should add release() method to release the audio when we press back button or active
+ * another activity.
+ */
+
 
 public class MainActivity extends AppCompatActivity {
 
