@@ -9,14 +9,6 @@ Work Flow Chart for Miwork App:
 2. Than create another 4 empty activity for Number,Family,Colors & Phrases
 3. Than Set  click listener on every View and Create individual new intent to open the view(Number,Family,Colors & Phrases)
 4. Than set label at Manifest file to show actual Activity Name in every acrivity action bar(android:label="@string/category_numbers")
-5. Than add code at Manifest file for Back button in Action bar
-Example for labe and backbutton:
-<activity
-            android:name=".ColorsActivity"
-            android:label="@string/category_colors"
-            android:parentActivityName=".MainActivity">
-            <!-- Parent activity meta-data to support 4.0 and lower -->
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity"/>
-     </activity>
+5. Than add code at Manifest file for Back button in Action bar,(android:parentActivityName=".MainActivity")
+
+
