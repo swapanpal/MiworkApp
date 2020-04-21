@@ -17,5 +17,13 @@ Work Flow Chart for Miwork App:
     * Must override getView method with default constructor in custom adapter class
     * need a xml flie where to show the data(this view will show all 4 activity on setOnContentView)
     * than use the same code for all 4 activity
+ 7. add all image asset to drawable folder
+ 8. Modify Word class,WordAdapter and list_item_xml file to show image in every list
+   * create new constructor in Word class
+   * find, get and set image in wordAdapter class
+   * add image visible or gone in for every iteme(because pharases item has no image)
+ 9. Than visual polist:
+      * modify all xml file for acurate view(weight,width, height, padding etc)
+      * add code for different background color as per 4 cagegory BG color)
 
 
