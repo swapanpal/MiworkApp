@@ -29,5 +29,6 @@ Work Flow Chart for Miwork App:
       * add all audio file in raw folder
       * add audio id at listView as 4th input & modify Word class constructor(add another input in every constructor)
       * add OnItemClickListener to play audio and add MediaPlayer code in 4 activity
+      * than add release method in MediaPlayer to release audio when finished play
 
 
