@@ -37,6 +37,7 @@ Work Flow Chart for Miwork App:
          * Rapped all the view in mainActivity.xml file with FrameLayout and add attribute (android:background="?   
             android:attr/selectableItemBackground") in all view
          * at word_list for all word list (android:drawSelectorOnTop="true")
+    13. Now need to add code for viewPager(swipe screen)
          
 
 
