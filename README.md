@@ -33,5 +33,10 @@ Work Flow Chart for Miwork App:
       * than add onStop method to emidiately stop audio when user clicked home button after release code
       * than add code for AudioFocus
     11. Add play arrow button in list_item.xml file 
+    12. add circular ripple animation code at 
+         * Rapped all the view in mainActivity.xml file with FrameLayout and add attribute (android:background="?   
+            android:attr/selectableItemBackground") in all view
+         * at word_list for all word list (android:drawSelectorOnTop="true")
+         
 
 
