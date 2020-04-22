@@ -25,5 +25,9 @@ Work Flow Chart for Miwork App:
  9. Than visual polist:
       * modify all xml file for acurate view(weight,width, height, padding etc)
       * add code for different background color as per 4 cagegory BG color)
+ 10. Add audio in Miwok app, To do this:
+      * add all audio file in raw folder
+      * add audio id at listView as 4th input & modify Word class constructor(add another input in every constructor)
+      * add OnItemClickListener to play audio and add MediaPlayer code in 4 activity
 
 
