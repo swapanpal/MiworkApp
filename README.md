@@ -31,5 +31,7 @@ Work Flow Chart for Miwork App:
       * add OnItemClickListener to play audio and add MediaPlayer code in 4 activity
       * than add release method in MediaPlayer to release audio when finished play
       * than add onStop method to emidiately stop audio when user clicked home button after release code
+      * than add code for AudioFocus
+    11. Add play arrow button in list_item.xml file 
 
 
